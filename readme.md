@@ -3,7 +3,7 @@
 This project is designed to reproduce the results presented in the associated research paper. The main directory contains the source files, while the necessary data files are provided in a separate compressed archive for manageability due to their large size.
 
 The code structure is as shown in the file tree below. The `data_process` folder contains code related to data preprocessing. The `DateBase` section includes content for constructing the approximate database. The `model` folder holds the weights of our trained models. The following three index folders correspond to different indexing methods and image plotting as described in the paper. The `utils` folder contains utility functions. `main_tree` represents the concept tree, and `requirements` lists all the dependencies required for the project.
-
+```
 ├── data_process
 │   ├── data_filter.py
 │   ├── data_process_structured.py
@@ -35,7 +35,7 @@ The code structure is as shown in the file tree below. The `data_process` folder
 │   └── result_process_unstructured.py
 ├── main_tree.py
 └── requirements.txt
-
+```
 ## Prerequisites
 
 - **Python 3.x** (tested with Python 3.11)
